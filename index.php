@@ -99,8 +99,8 @@
 
     $host = "localhost";
     $database = "lean";
-    $user = "phpmyadmin";
-    $pass = "wangchaowe";
+    $user = "username";
+    $pass = "password";
 
     $connection = mysqli_connect($host, $user, $pass, $database);
     

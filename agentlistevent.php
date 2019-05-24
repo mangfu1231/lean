@@ -44,8 +44,8 @@
     
   $host = "localhost";
   $database = "lean";
-  $user = "phpmyadmin";
-  $pass = "wangchaowe";
+  $user = "username";
+  $pass = "password";
     
   $conn = mysqli_connect($host, $user, $pass, $database); 
     
@@ -173,8 +173,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
   $host = "localhost";
   $database = "chaoweiw_wdm";
-  $user = "chaoweiw_root";
-  $pass = "nYo2D#vxvylH";
+  $user = "username";
+  $pass = "password";
     
   $connection = mysqli_connect($host, $user, $pass, $database);
   

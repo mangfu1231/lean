@@ -43,8 +43,8 @@ session_start();
     
   $host = "localhost";
   $database = "lean";
-  $user = "phpmyadmin";
-  $pass = "wangchaowe";
+  $user = "username";
+  $pass = "password";
     
   $conn = mysqli_connect($host, $user, $pass, $database); 
     

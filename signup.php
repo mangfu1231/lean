@@ -181,8 +181,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($email) and preg_match("/([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)/", $email) and !empty($password) and preg_match("/(?=.*\d).{4,8}/", $password) and !empty($fname) and preg_match("/[a-z ,.'-]+/", $fname) and !empty($lname) and preg_match("/[a-z ,.'-]+/", $lname) and !empty($address) and preg_match("/(\d{3,})\s?(\w{0,5})\s([a-zA-Z]{2,30})\s([a-zA-Z]{2,15})\.?\s?(\w{0,5})/", $address) and !empty($city) and preg_match("/[a-zA-Z]+(?:[\s-][a-zA-Z]+)*/", $city) and !empty($state) and !empty($zipcode) and preg_match("/([0-9]{5})(-[0-9]{4})?/", $zipcode)) {
         $host = "localhost";
         $database = "lean";
-        $user = "phpmyadmin";
-        $pass = "wangchaowe";
+        $user = "username";
+        $pass = "password";
     
         $connection = mysqli_connect($host, $user, $pass, $database);
     

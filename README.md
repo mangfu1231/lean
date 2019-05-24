@@ -1,5 +1,5 @@
 # LEANEVENTO Website
-## A Website developed by Html/CSS, Javascript, Php and MySQL.
+## A Website Developed by Html/CSS, Javascript, Php and MySQL.
 
 The EER Schema displayed as below,
 
